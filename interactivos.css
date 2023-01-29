@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Unbounded', cursive; */
+/* font-family: 'Lato', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --azul-opaco: #8DCBE6;
+    --amarillo: #F5EA5A;
+    --blanco: #ffff;
+    --salmon: #FF8787;
+    --verde-claro: #82CD47;
+}
+
+body{
+    background-color: var(--azul-opaco) ;
+}
+canvas {
+    border: black 1px solid;
+}
+
+/*primera pantalla*/
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.presentacion__logo{
+    width: 200px;
+}
+
+.presentacion__titulo{
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+    color: var(--blanco); 
+}
+
+.tarjetas{
+    background-color: var(--amarillo);
+    margin: 50px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    height: 100%;
+}
+
+.tarjetas h2{
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--verde-claro);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tarjetas__info{
+    display: none;
+}
+/*segunda pantalla*/ 
+.tarjetas__info__descripccion{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: medium;
+    margin-top: 50px; 
+    
+}
+
+
+.tarjetas__datos{
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;   
+}
+
+
+
+/*tercera pantalla*/
+.tarjetas__datos input{
+    margin-bottom: 15px;
+    height: 25px;
+    border-radius: 40px;
+    border: none;
+    font-size: medium;
+    padding-left: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+/*cuarta pantalla*/
+.tarjetas__datos select{
+    margin-bottom: 15px;
+    height: 25px;
+    border-radius: 40px;
+    border: none;
+    font-size: medium;
+    padding-left: 4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+/*quinta pantalla*/
+.tarjetas__datos label{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600; 
+
+}
+
+.tarjetas__informacion-economica{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.tarjetas__informacion-economica input{
+    margin-right: 10px;
+}
+.tarjeta__declaracion{
+    display: none;
+}
+.tarjeta__consideraciones{
+    display: none;
+}
+.tarjeta__autorizacion{
+    display: none;
+}
+.tarjeta__firma{
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 5px;
+    
+}
+
+.buttons__siguiente{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:var(--verde-claro) ;
+    border-color: black;
+    font-size: large;
+    font-weight: 600;
+}
+

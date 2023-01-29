@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    border: solid 2px black;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    width: auto;
+    height: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.cabezera__logo{
+    width: 100px;
+}
+.info-uno{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
+.info-dos{
+    margin-top: 2px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+}
+.fecha-ciudad__date-i{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.datos__info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+}

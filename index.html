@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SARLAFT-PANAMEXCHANGE</title>
+</head>
+<body>
+    <header class="cabezera">
+        <img class="cabezera__logo" src="./assets/logo.png" alt="logo">
+        <h1 class="cabezera__titulo">PANAMEXCHANGE SAS</h1>
+    </header>
+    <form action="">
+        <p class="info-uno">SISTEMA DE ADMINISTRACION DEL RIESGO DE LAVADO DE ACTIVOS Y FINANCIACION DEL TERRORISMO ( SARLAFT)</p>
+        <p class="info-dos">CLASE O TIPO DE VINCULACION LA EMPRESA</p>
+        <div class="fecha-ciudad">
+            <label class="fecha-ciudad__date-l" for="">FECHA :</label>
+            <input class="fecha-ciudad__date-i" type="date" placeholder="Seleccionar Fecha"></input>
+            <label class="fecha-ciudad__city-l" for="">CIUDAD :</label>
+            <input class="fecha-ciudad__city-i"></input>
+        </div>
+        
+        <label class="cliente" for="">CLIENTE</label>
+        <input type="checkbox">
+
+        <div class="datos">
+            <p class="datos__info">1.DATOS</p>
+            
+            <label for="datos__apellido-uno">PRIMER APELLIDO</label>
+            <input class="datosdatos__apellido-uno-in" type="text">
+            
+            <label class="datos__apellido-dos" for="datos">SEGUNDO APELLIDO</label>
+            <input class="datos__apellido-dos-in" type="text">
+            
+            <label for="datos__nombre-uno">PRIMER NOMBRE</label>
+            <input class="datos__nombre-uno-in" type="text">
+            
+            <label for="datos__nombre-dos">SEGUNDO NOMBRE</label>
+            <input class="datos__nombre-dos-in" type="text">
+            
+            <label class="datos__tipo-id" for="datos">TIPO DE IDENTIFICACION</label>
+            <select name="id">
+                <option value="1">CC</option>
+                <option value="2">CE</option>
+                <option value="3">R.C</option>
+                <option value="4">N.U.I.P</option>
+                <option value="5">PASAPORTE</option>
+            </select>
+
+            <label class="datos__num-id">Nº IDENTIFICACION</label>
+            <input class="datos__num-id-in" type="number">
+
+            <label class="datos_expedicion" for="">LUGAR DE EXPEDICION (Ciudad/Municipio)</label>
+            <input class="datos_expedicion-in" type="text">
+
+            <label class="datos__fecha-expedicion">FECHA EXPEDICION</label>
+            <input class="datos__fecha-expedicion-in" type="date">
+
+            <label class="dato__res-colombia">ES RESIDENTE EN COLOMBIA?</label>
+            <select>
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select>
+            
+            <label class="datos__nacimiento">FECHA DE NACIMIENTO</label>
+            <input class="datos__nacimiento-in" type="date">
+
+            <label class="datos__lugar-nacimiento">LUGAR DE NACIMIENTO (Ciudad/Municipio)</label>
+            <input class="datos__lugar-nacimiento-in" type="text">
+
+            <label for="datos__pais-nacimiento">PAIS DE NACIMIENTO</label>
+            <input class="datos__pais-nacimiento-in" type="text">
+
+            <label for="datos__nacionalidad">NACIONALIDAD</label>
+            <input class="datos__nacionalidad-in" type="text">
+
+            <label for="datos__nacionalidad">NACIONALIDAD</label>
+            <input class="datos__nacionalidad-in" type="text">
+
+            <label for="datos__nacionalidad">NACIONALIDAD</label>
+            <input class="datos__nacionalidad-in" type="text">
+
+            <label class="dato__res-colombia">ESTADO CIVIL</label>
+            <select>
+                <option value="1">SOLTERO(A)</option>
+                <option value="2">CASADO(A)</option>
+                <option value="3">DIVORCIADO(A)</option>
+                <option value="4">UNION LIBRE</option>
+                <option value="5">VIUDO(A)</option>
+            </select>
+        </div>
+        <div class="informacion-economica">
+            <p class="informacion-economica__info">2.INFORMACION ACTIVIDAD ECONOMICA</p>
+
+            <label> <input type="radio" name="info">ASALARIADO</label>
+
+            <label> <input type="radio" name="info">SOCIO</label>
+
+            
+            <label  for=""class="datos__nacionalidad" >SOCIO</label>
+            <input  id="" class="datos__nacionalidad-in" type="radio" name="">
+
+            <label class="datos__nacionalidad" for="economica">PROFECIONAL INDEPENDIENTE</label>
+            <input class="datos__nacionalidad-in" type="radio" name="hola">
+
+            <label class="datos__nacionalidad" for="economica">ESTUDIANTE</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">CONTRATISTA</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">EMPLEADO SOCIO</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">HOGAR</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">COMERCIANTE</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">PENCIONADO</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">EMPLEADO PUBLICO</label>
+            <input class="datos__nacionalidad-in" type="radio">
+
+            <label class="datos__nacionalidad">OTRA</label>
+            <input class="datos__nacionalidad-in" type="radio">
+        </div>
+        <div class="declaracion">
+            <p class="declaracion__info">3.DECLARACION DEL ORIGEN DE LOS DINEROS /FONDOS
+            </p>
+            <p class="declaracion__info__datos">Declaro , que mi profesion, oficio o actividad de la persona natural o juridica es lìcita, se ejerce dentro del marco legal.Ademas declaro que los los recursos economicos que poseo no provienen de actividades ilicitas ,tipificadas en el
+                Codigo Penal Colombiano.Doy fe que la informacion es ceraz y verificable.De no ser cierta esta informacion Panamexchange SAS ,podrà revocar o rescindir unilateralmente sus serviciIOS. Tambien afirmo que los recursos financieros
+                usados en estas operaciones no estan destinados al Lavado de Activos ni financiamiento al terrorismo ,grupos ilegales,delitos de lesa humanidad,narcotràfico,opacidad o fraude.Que los recursos que entregue y entregaré Panamexchange
+                SAS provienen de las siguientes fuentes (detalle, ocupación, profesión, negocio, etc.):
+            </p>
+            <input type="text">
+        </div>
+        <div class="consideraciones">
+            <p class="consideraciones__info">4.CONSIDERACIONES</p>
+            <p class="consideraciones__info__datos">1. Que los datos personales solicitados en el presente formulario de Conocimiento del Cliente son regidos atendiendo las disposiciones e instrucciones impartidas por la Superintedencia de Industria y Comercio internacionales para la
+                Prevencion y el Control del Lavado de Activos y la Financiacion del Terrorismo.
+                2. Que conforme a los dispuesto en el literal b) del artículo 2 de la Ley1581 de 2012, las disposiciones que buscan la protección de datos personales y que se encuentran contenidos en dicha disposición, no son aplicables a las bases de
+                datos y archivos que tengan por finalidad la prevención, detección, monitoreo y control del lavado de activos y el financiamiento del terrorismo, por lo que en principio su utilizacion no requeriría de una autorización de su titular, la
+                cual proviene de la Ley.
+                3. Que los datos personales adicionales para el estudio técnico del riesgo se trataran observando las disposiciones legales vigentes
+            </p>
+        </div>
+        <div class="autorización">
+            <p class="autorización__info">5.AUTORIZACION
+            </p>
+            <p class="autorización__info__datos">Para efectos de la presente autorización, entiéndase para Panamexchange SAS.
+                Declaro expresamente:
+                A. Que para efectos de accedera a prestacón de servicios por parte de Panamexchange SAS, suministramos nuestros datos para todos los fines pertinentes a la actividades de prestacion de servicios de cambio.
+                B. Que Panamexchange SAS, me ha informado, expresamente:
+                1. FINALIDAD DEL TRATAMIENTO DE DATOS PERSONALES: Mis datos personales serán tratados por la presente empresa para las siguientes finalidades: a) Envio de información de Sujetos de tributación en los Estados Unidos
+                al Internal Revenue Service (IRS) y/o a la -Dirección de Impuestos y Aduanas Nacionales de Colombia - DIAN en los términos del Foreign Account Tax Compliance Act (FATCA), o a las normas que lo modifiquen y a las
+                reglamentaciones aplicables. l) Intercambio de información en virtud de tratados y acuerdos internacionales suscritos por Colombia. m) La prevención y control de Lavado de Activos y la Financiación del Terrorismo.
+                2. El tratamiento podrá ser realizado directamente por citada empresa o por los encargados del tratamiento que ella considere necesarios. 3.
+                DATOS SENSIBLES: Que son facultativas las respuestas a las preguntas que me han hecho o me haran sobre datos personales sensibles, de conformidad con la definición legal vigente. En consecuencia, no he sido obligado a
+                responderlas, que lo he hecho de manera voluntaria, por lo que autorizo expresamente para que se lleve a cabo el tratamiento de datos sensibles, en especial, los relativos de la salud y los datos biométricos. En todo caso, para efectos
+                del presente formulario de conocimiento del cliente o contraparte, se debe tener en consideración que el capitulo XI del Título I de la Circular Básica Jurídica de la Superintendencia Financiera de Colombia .
+                4.DERECHOS DEL TITULAR DE LA INFORMACION: Que como titular de la información, nos asisten los derechos previstos en la Ley 1266 de 2008 y 1581 de 2012. En especial, el derecho a conocer, actualizar, rectificar, revocar y
+                suspender las informaciones que se hayan recogido sobre mi.
+                5.AUTORIZACIÓN: De manera expresa, AUTORIZO el tratamiento de los datos personales incluidos los sensibles y autorizao, de ser necesario, la transferencia nacional e internacional de los mismos, por las personas, para las
+                finalidades y en los terminos que nos fueron informados en el presente documento. 
+            </p>
+        </div>
+    </form>
+    
+</body>
+<script src="./main.js"></script>
+</html>
