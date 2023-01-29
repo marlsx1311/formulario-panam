@@ -59,7 +59,7 @@ canvas {
 }
 
 .tarjetas__info{
-    display: none;
+    display: block;
 }
 /*segunda pantalla*/ 
 .tarjetas__info__descripccion{
@@ -111,7 +111,7 @@ canvas {
 }
 
 .tarjetas__informacion-economica{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
