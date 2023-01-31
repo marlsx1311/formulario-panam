@@ -116,11 +116,23 @@ canvas {
     align-items: flex-start;
     gap: 10px;
 }
+
 .tarjetas__informacion-economica input{
     margin-right: 10px;
 }
 .tarjeta__declaracion{
     display: none;
+}
+.tarjeta__declaracion__info__datos{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    
+}
+.tarjeta__declaracion input{
+    width: 300px;
+    height: 100px;
+    margin-top: 10px;
 }
 .tarjeta__consideraciones{
     display: none;
