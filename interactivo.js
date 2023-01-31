@@ -129,7 +129,6 @@ let cambioPagina = 0;
 let botonEco = tarjetaEconomica.style.display;
 
 botonSiguiente.addEventListener("click" , tarjetaSiguiente);
-botonAtras.addEventListener("click" , tarjetaAtras);
 
 function tarjetaSiguiente(){
     
@@ -140,7 +139,7 @@ function tarjetaSiguiente(){
     }    
     else if (cambioPagina == 1){
         tarjetaDatos.style.display = "none";
-        tarjetaEconomica.style.display = "block"; 
+        tarjetaEconomica.style.display = "flex"; 
         cambioPagina++;
     }
     else if (cambioPagina == 2){
