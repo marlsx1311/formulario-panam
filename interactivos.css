@@ -16,7 +16,8 @@
 }
 
 body{
-    background-color: var(--azul-opaco) ;
+    background-image: linear-gradient(#3330E4, #00D7FF) ;
+    height: 100vh;
 }
 canvas {
     border: black 1px solid;
@@ -133,6 +134,7 @@ canvas {
     width: 300px;
     height: 100px;
     margin-top: 10px;
+    
 }
 .tarjeta__consideraciones{
     display: none;
