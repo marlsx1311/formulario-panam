@@ -155,6 +155,7 @@ function tarjetaSiguiente(){
         tarjetaConsideraciones.style.display = "none"
         tarjetaAutorizacion.style.display = "none"; 
         tarjetafirma.style.display = "block"
+        botonSiguiente.style.display = "none"
         cambioPagina++;
     }else{
         alert("hola final")

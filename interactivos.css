@@ -164,4 +164,13 @@ canvas {
     font-size: large;
     font-weight: 600;
 }
-
+.tarjeta__firma button{
+    width: 160px;
+    height: 30px;
+    background-color: #3B44F6;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    
+}

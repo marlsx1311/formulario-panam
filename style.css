@@ -8,23 +8,24 @@ body{
     padding: 20px 20px 20px 20px;
     width: auto;
     height: auto;
+    font-size: 10px;
 }
 header{
     display: flex;
     align-items: center;
 }
 .cabezera__logo{
-    width: 100px;
+    width: 60px;
 }
 .info-uno{
     text-align: center;
-    font-size: large;
+    font-size: 13px;
     font-weight: 700;
 }
 .info-dos{
     margin-top: 2px;
     text-align: center;
-    font-size: medium;
+    font-size: 10px;
     font-weight: 700;
 }
 .fecha-ciudad__date-i{
@@ -37,4 +38,9 @@ header{
     text-align: center;
     font-size: medium;
     font-weight: 600;
+}
+#firma{
+    width: 250px;
+    height: 70px;
+    margin-top: 20px;
 }
